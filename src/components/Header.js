@@ -5,7 +5,10 @@ import "./Style.css";
 
 function Header(){
     return(
-        <div></div>
+        <div id="header">
+            <h1>Random Cat Generator</h1>
+            <p>Made by Maciej Stachańczyk 4d TE</p>
+        </div>
     )
 }
 

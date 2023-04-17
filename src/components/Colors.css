@@ -8,23 +8,40 @@ COLORS
 #DBCAAE
 
 */
+
 #header{
     background-color: #DBCAAE;
     color: #372E29;
 }
+
 #navbar{
     background-color: #B19774;
     color: #372E29
 }
+
 #footer{
     background-color: #DBCAAE;
     color: #372E29
+}
+.line{
+    background-color: #B19774;
 }
 
 
 #home{
  background-color: #C1B4A4;
 }
+
 #about{
     background-color: #C1B4A4;
+}
+.info{
+    background-color: #DBCAAE;
+    color: #372E29; 
+    border-color: #372E29;
+}
+.infobox{
+    background-color: #DBCAAE;
+    border-color: #372E29;
+    color: #372E29;
 }

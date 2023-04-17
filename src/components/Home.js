@@ -3,12 +3,12 @@ import "./Colors.css";
 import "./Style.css";
 
 
-function Header(){
+function Home(){
     return(
-        <div id="header">
-            <h1>Random Cat Generator</h1>
+        <div id="home">
+            HOME PAGE
         </div>
     )
 }
 
-export default Header;
+export default Home;

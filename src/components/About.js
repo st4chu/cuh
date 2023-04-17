@@ -3,12 +3,12 @@ import "./Colors.css";
 import "./Style.css";
 
 
-function Header(){
+function About(){
     return(
-        <div id="header">
-            <h1>Random Cat Generator</h1>
+        <div id="about">
+            ABT PAGE
         </div>
     )
 }
 
-export default Header;
+export default About;

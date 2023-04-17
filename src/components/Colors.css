@@ -1,3 +1,30 @@
+/*
+COLORS
+
+#C1B4A4
+#B19774
+#372E29
+#4D3F2E
+#DBCAAE
+
+*/
 #header{
-    background-color: pink;
+    background-color: #DBCAAE;
+    color: #372E29;
+}
+#navbar{
+    background-color: #B19774;
+    color: #372E29
+}
+#footer{
+    background-color: #DBCAAE;
+    color: #372E29
+}
+
+
+#home{
+ background-color: #C1B4A4;
+}
+#about{
+    background-color: #C1B4A4;
 }

@@ -1,12 +1,36 @@
 #header{
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
+    position: relative;
 }
 #header h1{
     font-size: 48px;
 }
-#header p{
-    font-size: 20px;
+
+#navbar{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    padding:0 100px;
+}
+
+
+
+
+#home{
+   height: calc(100vh - 150px);
 }

@@ -1,3 +1,5 @@
+/* COLOR DEFINITIONS FOR APP COMPONENTS */
+
 /*
 COLORS
 
@@ -16,12 +18,15 @@ COLORS
 
 #navbar{
     background-color: #B19774;
-    color: #372E29
+    color: #372E29;
+}
+#navbar p *{
+    color: #372E29;
 }
 
 #footer{
     background-color: #DBCAAE;
-    color: #372E29
+    color: #372E29;
 }
 .line{
     background-color: #B19774;
@@ -31,6 +36,7 @@ COLORS
 #home{
  background-color: #C1B4A4;
 }
+
 
 #about{
     background-color: #C1B4A4;
@@ -44,4 +50,12 @@ COLORS
     background-color: #DBCAAE;
     border-color: #372E29;
     color: #372E29;
+}
+
+
+#gif{
+    background-color: #C1B4A4;
+}
+#fullscreengif{
+    background-color: #000000cc;
 }

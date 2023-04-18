@@ -2,7 +2,7 @@ import React from "react";
 import "./Colors.css";
 import "./Style.css";
 
-
+// About page with details
 function About(){
     return(
         <div id="about">
@@ -11,13 +11,16 @@ function About(){
 
             
             <table className="infobox">
-                dane techniczne:
                 <tr>
-                    <td>Wersja: 2.0</td>
+                    <th>dane techniczne</th>
+                </tr>
+                
+                <tr>
+                    <td>Wersja: 2.0 WIP</td>
                     
                 </tr>
                 <tr>
-                    <td>Ostatnia aktualizacja:  17.04.23</td>
+                    <td>Ostatnia aktualizacja:  18.04.23</td>
                 </tr>
                 
                 

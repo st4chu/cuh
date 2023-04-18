@@ -32,6 +32,7 @@
 }
 #navbar p *{
     text-decoration: none;
+    width: 100%;
 }
 
 #footer{
@@ -54,9 +55,32 @@
 
 
 #home{
-   height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    position: relative;
+    top: 50px;
+}
+#catimg{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+}
+#catbttn{
+    position: absolute;
+    bottom: 100px;
+    left: 45%;
+    width: 10%;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 10px;
+}
 
 
 #about{

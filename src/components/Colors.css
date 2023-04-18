@@ -36,6 +36,15 @@ COLORS
 #home{
  background-color: #C1B4A4;
 }
+#catbttn{
+    background-color: #DBCAAE;
+    color: #372E29;
+    border: #4D3F2E;
+}
+#catbttn:hover{
+    background-color: #4D3F2E ;
+    color: #DBCAAE;
+}
 
 
 #about{

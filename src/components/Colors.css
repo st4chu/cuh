@@ -28,7 +28,7 @@ COLORS
     background-color: #DBCAAE;
     color: #372E29;
 }
-.line{
+#line{
     background-color: #B19774;
 }
 
@@ -44,6 +44,7 @@ COLORS
 #catbttn:hover{
     background-color: #4D3F2E ;
     color: #DBCAAE;
+    border-color: #4D3F2E;
 }
 
 

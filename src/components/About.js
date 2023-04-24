@@ -20,7 +20,11 @@ function About(){
                     
                 </tr>
                 <tr>
-                    <td>Ostatnia aktualizacja:  18.04.23</td>
+                    <td>Ostatnia aktualizacja:  24.04.23</td>
+                </tr>
+                <tr>
+                    <td>Ostatnia zmiana: <br/>
+                    grzebanie w responsywności css</td>
                 </tr>
                 
                 

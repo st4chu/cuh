@@ -45,10 +45,15 @@ function Home(){
             {post.map((post) => {
                 return(
                     <div id="home">
+                      <div className='home'>
                         <div className='container'>
-                            <img id='catimg' src={post.url} alt='losowo generowane guh'></img>
+                            <img className='catimg' src={post.url} alt='losowo generowane guh'></img>
                         </div>
-                        <button id='catbttn' onClick={reGen}>A new fine specimen</button>
+                        <div className='bttnbox'>
+                          <button className='catbttn' onClick={reGen}>A new fine specimen</button>
+                        </div>
+                      </div>
+                        
                     </div>
                 )
             })}

@@ -18,6 +18,9 @@ function Gif(props){
     return(
         <div id={isfs? "fullscreengif" : "gif"}>
             {/* watch him dance */}
+            <div className={isfs? "": "gif"}>
+
+            </div>
             <img src={catGif} onClick={toggle} alt="cat dance gif :3" className={isfs? "fullscreen" : "gif"}/>
         </div>
     )

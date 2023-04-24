@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.js";
 import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Gif from "./components/Gif.js";
+import Line from "./components/Line.js"
 import Footer from "./components/Footer.js"
 import { Route, Routes} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App(){
         <Route path="/About" element={<About/>}/>
         <Route path="/Gif" element={<Gif/>}/>
       </Routes>
+      <Line/>
       <Footer/>
     </div>
   );

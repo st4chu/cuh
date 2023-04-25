@@ -11,6 +11,10 @@ COLORS
 
 */
 
+body{
+    background-color: #C1B4A4;
+}
+
 #header{
     background-color: #DBCAAE;
     color: #372E29;
@@ -23,6 +27,10 @@ COLORS
 #navbar p *{
     color: #372E29;
 }
+#navbar p:hover *{
+    background-color: #4D3F2E ;
+    color: #DBCAAE;
+}
 
 #footer{
     background-color: #DBCAAE;
@@ -33,24 +41,18 @@ COLORS
 }
 
 
-#home{
- background-color: #C1B4A4;
-}
-#catbttn{
+.catbttn{
     background-color: #DBCAAE;
     color: #372E29;
     border: #4D3F2E;
 }
-#catbttn:hover{
+.catbttn:hover{
     background-color: #4D3F2E ;
     color: #DBCAAE;
     border-color: #4D3F2E;
 }
 
 
-#about{
-    background-color: #C1B4A4;
-}
 .info{
     background-color: #DBCAAE;
     color: #372E29; 
@@ -63,9 +65,7 @@ COLORS
 }
 
 
-#gif{
-    background-color: #C1B4A4;
-}
+
 #fullscreengif{
     background-color: #000000cc;
 }

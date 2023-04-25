@@ -12,7 +12,7 @@ import "./App.css"
 // main page of the app
 function App(){
   return (
-    <div>
+    <div id="app">
       <Header/>
       <Navbar/>
       <Routes>

@@ -6,31 +6,25 @@ import "./Style.css";
 function About(){
     return(
         <div id="about">
-            <div className="about">
-                <p className="info">Aplikacja ta została stworzona przy pomocy reacta i litrów herbaty lipton i pepis.<br/>
-                W tej aplikacji zostało wykorzystane thecatapi pozwalające na generację losowych zdjęć dziabobongów</p>
 
+            <p className="info hoverable">Aplikacja ta została stworzona przy pomocy reacta i litrów herbaty lipton i pepis.<br/>
+            W tej aplikacji zostało wykorzystane thecatapi pozwalające na generację losowych zdjęć dziabobongów</p> 
 
-                <table className="infobox">
-                    <tr>
-                        <th>dane techniczne</th>
-                    </tr>
-
-                    <tr>
-                        <td>Wersja: 2.0 WIP</td>
-
-                    </tr>
-                    <tr>
-                        <td>Ostatnia aktualizacja:  24.04.23</td>
-                    </tr>
-                    <tr>
-                        <td>Ostatnia zmiana: <br/>
-                        grzebanie w responsywności css</td>
-                    </tr>
-
-
+            <table className="infobox hoverable">
+                <tr>
+                    <th>dane techniczne</th>
+                </tr>
+                <tr>
+                    <td>Wersja: 2.1 WIP</td>
+                </tr>
+                <tr>
+                    <td>Ostatnia aktualizacja:  25.04.23</td>
+                </tr>
+                <tr>
+                    <td>Ostatnia zmiana: <br/>
+                    gmeranie w css</td>
+                </tr>
             </table>
-            </div>
             
         </div>
     )

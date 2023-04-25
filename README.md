@@ -1,6 +1,4 @@
-ths app requires react but thats kinda obvious
-if it doesnt work then write 'npm install' in ur dir.
+ths app requires react but thats kinda obvious but if it doesnt work then write 'npm install' in cmd.
 
-if you wanna pull then pull master just to be sure
 
 this app uses thecatapi
